@@ -10,3 +10,6 @@ export const handler = async(event) => {
     let { lang, ...info } = event.queryStringParameters;
     let message = `${greeting[lang]? greeting[lang] : greeting['en']} ${name}`
 };
+
+
+//It will print out hello in a certain language and then the name of the user
